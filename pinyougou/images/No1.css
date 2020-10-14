@@ -1,0 +1,42 @@
+    * {
+        margin: 20px;
+    }
+
+    p {
+        line-height: 24px;
+    }
+
+    #title {
+        color: black;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #date {
+        color: #ccc;
+
+    }
+
+    #gift {
+        color: #56242A;
+    }
+
+    #in {
+        color: red;
+    }
+
+    #btn {
+        color: green;
+    }
+
+    .em {
+        text-indent: 2em;
+    }
+
+    #left {
+        text-align: center;
+    }
+
+    .center {
+        margin-left: 300px;
+    }

@@ -1,0 +1,17 @@
+    .sitenav>.site-r>a {
+        color: red;
+    }
+
+    .nav a {
+        color: orange;
+    }
+
+    .nav, .sitenav{
+        font-family:'Microsoft YaHei';
+        font-size: 14px;
+    }
+
+    #pp {
+        color: red;
+        font-size: 40px;
+    }

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 150px;
+    width: 760px;
+    margin: 0 auto;
+    background-image: url(banner.jpg);
+}
+
+.box2 {
+    width: 760px;
+    height: 32px;
+    margin: 0 auto;
+    background-image: url(nav_bg.jpg);
+}
+
+.box2 ul li {
+    list-style-type: none;
+    float: left;
+    background-image: url(button1.jpg);
+    text-align: center;
+}
+
+.box2 li a {
+    width: 80px;
+    height: 32px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 32px;
+    color: #40510a;
+    display: block;
+}
+
+.box2 li a:hover {
+    background-image: url(button2.jpg);
+}
+

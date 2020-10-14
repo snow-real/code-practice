@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    width: 1226px;
+    height: 615px;
+    margin: 0 auto;
+    background-color: brown;
+}
+.left {
+    height: 615px;
+    width: 234px;
+    background-color: skyblue;
+    float: left;
+}
+.right {
+    height: 615px;
+    width: 992px;
+    background-color: pink;
+    float: left;
+}
+.right li {
+    width: 235px;
+    height: 301px;
+    margin-left: 13px;
+    float: left;
+    margin-bottom: 13px;
+    background-color: red;
+    list-style-type: none;
+}

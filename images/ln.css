@@ -1,0 +1,123 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .box {
+        width: 604px;
+        padding: 22px 18px 20px 18px;
+        border: 1px solid #bbbbbb;
+        border-top: 3px #094683 solid;
+        margin: 100px auto;
+    }
+
+    .box .up {
+        width: 598px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+    }
+
+    .box .up .top {
+        font-size: 22px;
+        color: black;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .box .up .top2 {
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    .box .up .top2 li{ 
+        list-style-type:none;
+        display: inline;
+        font-size: 8px;
+        margin-right: 10px;
+    }
+
+    .box .up .top2 a {
+        text-decoration: none;
+        color: #ccc;
+    }
+
+    .box .up .top2 a:hover {
+        text-decoration: underline;
+    }
+
+    .box .up .top2 #first {
+        color: #ccc;
+    }
+
+    .box .up .top2 #xl {
+        color: red;
+    }
+
+    .box .up .top2 #hm {
+        color: red;
+    }
+
+
+    img {
+        margin-top: 20px;
+        margin-left: 21px;
+        width: 570px;
+        height: 428px;
+    }
+
+    #img-down {
+        font-size: 12px;
+        color: #666;
+        text-align: center;
+        margin-top: 16px;
+    }
+
+    .main-p {
+        font-size: 14px;
+        text-indent: 2em;
+        margin-left: 21px;
+        line-height: 24px;
+        margin-top: 29px;
+    }
+
+    #main-p2 {
+        width: 554px;
+        font-size: 14px;
+        border: 1px dashed #ccc;
+        margin-left: 21px;
+        padding: 8px;
+        line-height: 24px;
+    }
+
+    #main-p3 {
+        text-align: right;
+    }
+
+    .keyword span{
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 15px;
+        margin-left: 21px;
+    }
+
+    .keyword a {
+        text-decoration: none;
+        color: #0454a7;
+    }
+
+    .keyword a:hover {
+        text-decoration: underline;
+    }
+
+    .load {
+        width: 518px;
+        height: 27px;
+        margin: 10px auto;
+        font-size: 14px;
+        color: #0454A7;
+        background-color: #DEE2F3;
+        border: 1px solid #0454A7;
+        text-align: center;
+        line-height: 27px;
+    }

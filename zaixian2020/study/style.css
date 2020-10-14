@@ -1,0 +1,512 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+.les:hover {
+    box-shadow: 3px 3px 2px rgba(0,0,0,.2);
+}
+/* 一：确定版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* header头部模块开始 */
+.header {
+    height: 42px;
+    margin: 30px auto;
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    float: left;
+    margin-left: 69px;
+}
+
+.nav ul li{
+    float: left;
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    display: block;
+    height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #050505;
+}
+
+/* 鼠标经过出现下边框 */
+.nav ul li a:hover {
+    border-bottom: 2px #00a4ff solid;
+}
+
+.search {
+    float: left;
+    height: 42px;
+    margin-left: 70px;
+}
+
+.search input {
+    float: left;
+    height: 40px;
+    width: 341px;
+    padding-left: 19px;
+    color: #bfbfbf;;
+    border: 1px solid #00a4ff;
+}
+
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    background-image: url(images/btn_06.png);
+}
+
+.user {
+    float: left;
+    margin-left: 30px;
+}
+
+.user img {
+    float: left;
+    margin-top: 5px;
+    margin-right: 7px;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+}
+
+.user span {
+    float: left;
+    display: block;
+    margin-top: 13px;
+    font-size: 14px;
+    color: #666;
+}
+/* header头部模块结束 */
+/* banner部分开始 */
+.box2 {
+    width: 100%;
+    height: 423px;
+    background-color: #1c036c;
+} 
+
+.banner {
+    background-image: url(images/banner2.png) ;
+    background-origin:content-box; 
+    overflow: hidden;
+}
+
+.banner ul {
+    float: left;
+} 
+
+.banner ul li {
+    width: 190px;
+    display: block;
+}
+
+.banner ul li a{
+    display: block;
+    height: 47px;
+    width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 47px;
+    font-size: 18px;
+    background-color: rgba(19,1,75,0.5);
+    color: #fff;
+}
+
+.banner ul li a:hover {
+    color: #00b4ff;
+}
+
+.banner ul li span {
+    float: right;
+}
+
+.course {
+    float: right;
+    margin-top: 50px;
+    width: 228px;
+    height: 300px;
+    background-color: white;
+}
+
+.course-hd {
+    float: left;
+    height: 48px;
+    width: 228px;
+    background-color: #9bceea;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 48px;
+}
+
+.course-bd{
+    float: left;
+    margin-top: 16px;
+}
+
+.course-bd li {
+    margin-bottom: 12px;
+    margin-left: 20px;
+    height: 46px;
+    border-bottom: 2px #efefef solid  ;
+}
+
+.course-bd li p {
+    color: #bdbdbd;
+    font-size: 12px;
+}
+
+.course a {
+    float: left;
+    width: 194px;
+    height: 38px;
+    margin-left: 20px;
+    border: 1px solid #22b0ff;
+    text-align: center;
+    line-height: 38px;
+}
+/* banner部分结束 */
+/* good部分开始 */
+.good {
+    height: 60px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.good .left {
+    float: left;
+}
+.good .left ul {
+    padding: 20px;
+    padding-left: 30px;
+}
+.good .left ul li {
+    float: left;
+    width: 122px;
+    height: 17px;
+    border-right: 1px solid #bfbfbf;
+    text-align: center;
+}
+
+.good .left ul li a{
+    font-size: 16px;
+    color: black;
+}
+
+#pre {
+    color: #00a4ff;
+}
+
+.good .right {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #00a4ff;
+}
+/* good部分结束 */
+/* 课程推荐开始 */
+.box {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.box-hd {
+    height: 57px;
+}
+
+.box .left {
+    float: left;
+    line-height: 57px;
+    font-size: 20px;
+}
+
+.box a {
+    float: right;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.box .box-bd {
+    float: left;
+    margin-top: 20px;
+}
+
+.box-bd .les {
+        float: left;
+        width: 228px;
+        height: 270px;
+        background-color: white; 
+        margin-right: 12px;
+        margin-bottom: 14px;
+        }
+       .box-bd .p1 {
+           margin: 22px 23px 0px 25px;
+            font-size: 14px;
+        }
+        .box-bd .lbox {
+            margin-top: 14px;
+            margin-left: 23px;
+            margin-bottom: 0;
+        }
+        .box-bd .left1 {
+            float: left;
+            font-size: 12px;
+            color: red;
+        }
+        .box-bd .right {
+            float: left;
+            font-size: 12px;
+            margin: 0;
+        }
+/* 课程推荐结束 */
+/* 编程入门开始 */
+.box1 {
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.box1-hd {
+    height: 57px;
+}
+
+.box1 .box1-hd .left{
+    float: left;
+    line-height: 57px;
+    font-size: 20px;
+}
+
+.box1 .box1-hd .med {
+    float: left;
+    margin-left: 353px;
+    font-size: 16px;
+}
+
+.box1 .box1-hd .med li {
+    float: left;
+}
+
+.box1 .box1-hd .med li a {
+    display: block;
+    width: 90px;
+    height: 57px;
+    line-height: 57px;
+    color: #ccc;
+}
+
+.box1 .box1-hd a {
+    display: block;
+    float: right;
+    margin-right: 30px;
+    line-height: 57px;
+    font-size: 12px;
+    color: #c6c7c8;
+}
+
+.box1  .box1-bd .left {
+    float: left;
+    margin-right: 15px;
+    width: 227px;
+    height: 392px;
+    background-color: yellow;
+    background-image: url(images/图层148.jpg);
+}
+
+.box1  .box1-bd .right img {
+    float: left;
+}
+
+.box1-bd .les {
+    float: right;
+    width: 228px;
+    height: 270px;
+    background-color: white; 
+    margin-left: 11px;
+    margin-bottom: 14px;
+    }
+   .box1-bd .p1 {
+       margin: 22px 23px 0px 25px;
+        font-size: 14px;
+    }
+    .box1-bd .lbox {
+        margin-top: 14px;
+        margin-left: 23px;
+        margin-bottom: 0;
+    }
+    .box1-bd .left1 {
+        float: left;
+        font-size: 12px;
+        color: red;
+    }
+    .box1-bd .right {
+        float: left;
+        font-size: 12px;
+        margin: 0;
+    }
+/* 编程入门结束 */
+/* 机器学习开始 */
+.box3 {
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.box3-hd {
+    height: 57px;
+}
+
+.box3 .box3-hd .left{
+    float: left;
+    line-height: 57px;
+    font-size: 20px;
+}
+
+.box3 .box3-hd .med {
+    float: left;
+    margin-left: 353px;
+    font-size: 16px;
+}
+
+.box3 .box3-hd .med li {
+    float: left;
+}
+
+.box3 .box3-hd .med li a {
+    display: block;
+    width: 90px;
+    height: 57px;
+    line-height: 57px;
+    color: #ccc;
+}
+
+.box3 .box3-hd a {
+    display: block;
+    float: right;
+    margin-right: 30px;
+    line-height: 57px;
+    font-size: 12px;
+    color: #c6c7c8;
+}
+.box3  .box1-bd .left {
+    float: left;
+    margin-right: 15px;
+    width: 227px;
+    height: 392px;
+    background-color: yellow;
+    background-image: url(images/图层148.jpg);
+}
+
+.box3  .box1-bd .right img {
+    float: left;
+}
+
+.box3-bd .les {
+    float: left;
+    width: 228px;
+    height: 270px;
+    background-color: white; 
+    margin-left: 11px;
+    margin-bottom: 14px;
+    }
+
+   .box3-bd .p1 {
+       margin: 22px 23px 0px 25px;
+        font-size: 14px;
+    }
+    .box3-bd .lbox {
+        margin-top: 14px;
+        margin-left: 23px;
+        margin-bottom: 0;
+    }
+    .box3-bd .left1 {
+        float: left;
+        font-size: 12px;
+        color: red;
+    }
+    .box3-bd .right {
+        float: left;
+        font-size: 12px;
+        margin: 0;
+    }
+/* 机器学习结束 */
+/* foot部分开始 */
+    .foot {
+        margin-top: 42px;
+        width: 100%;
+        height: 370px;
+        background-color: white;
+    }
+    .foot .left {
+        float: left;
+        width: 660px;
+    }
+    .foot .left img {
+        margin: 40px 0 20px 20px;
+    }
+    .foot .left p {
+        width: 435px;
+        height: 34px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    .foot .left a {
+        display: block;
+        width: 118px;
+        height: 38px;
+        line-height: 38px;
+        margin-left: 20px;
+        text-align: center;
+        border: 1px solid #00a4ff;
+        font-size: 16px;
+    }
+    .foot .right {
+        float: left;
+        width: 500px;
+        margin-top: 34px;
+    
+    }
+    .foot .right .foot-box {
+        float: left;
+        margin-left: 50px;
+        width: 90px;
+        height: 133px;
+    }
+/* foot部分结束 */
+/* 侧栏开始 */
+    .celan {
+        width: 300px;
+        height: 400px;
+        position: fixed;
+        top: 500px;
+        left: 50px;
+        background-color: violet;
+
+    }
+/* 侧栏结束 */
