@@ -9,3 +9,76 @@
     width: 1200px;
     margin: 0 auto;
 }
+
+/* 快捷导航栏开始 */
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+    font-size: 12px;
+}
+.shortcut .shortcut-left {
+    float: left;
+    width: 219px;
+}
+.shortcut .shortcut-left span {
+    margin-right: 13px;
+}
+.shortcut .shortcut-left a {
+    color: red;
+}
+.shortcut .shortcut-right {
+    float: right;
+    width: 630px;
+}
+.shortcut .shortcut-right ul li a {
+    display: block;
+    float: left;
+    margin-top: 10px;
+    line-height: 12px ;
+    font-size: 12px;
+    padding-right: 13px;
+    padding-left: 13px;
+    border-right: 1px solid #666;
+}
+/* 快捷导航栏结束 */
+
+/* header开始 */
+.header {
+    height: 105px;
+    background-color: pink;
+    position: relative;
+}
+.logo {
+    background-color: skyblue;
+    position: absolute;
+    width: 219px;
+    height: 55px;
+    top: 27px;
+    left: 0;
+    background-image: url(../img/01-电商-主页-gai_03.jpg);
+}
+.header .search {
+    position: absolute;
+    left: 348px;
+    top: 27px;
+    width: 538px;
+    height: 35px;
+}
+.header .search input {
+    display: block;
+    float: left;
+    height: 31px;
+    width: 454px;
+    border: 2px #b1191a solid;
+}
+.header .search button {
+    display: block;
+    float: left;
+    width: 80px;
+    height: 35px;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    background-color: #b1191a;
+}
