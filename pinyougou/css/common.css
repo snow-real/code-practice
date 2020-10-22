@@ -158,18 +158,18 @@
 }
 .navitems {
     float: left;
+    margin-left: 20px;
     height: 45px;
     width: 730px;
-    background-color: skyblue;
 }
-/* .navitems ul li a {
+.navitems ul li {
     display: block;
-    float: right;
+    float: left;
     height: 45px;
     font-size: 16px;
     line-height: 45px;
     padding-left: 25px;
     padding-right: 25px;
-}  */
+} 
 
 /* head结束 */
