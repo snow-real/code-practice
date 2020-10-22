@@ -27,7 +27,7 @@
 .shortcut .shortcut-left a {
     color: red;
 }
-.shortcut .shortcut-right {
+.shortcut .shortcut-right {   
     float: right;
     width: 630px;
 }
@@ -82,3 +82,94 @@
     font-size: 16px;
     background-color: #b1191a;
 }
+.header .hotwords {
+    position: absolute;
+    top: 64px;
+    left: 347px;
+}
+.header .hotwords ul li {
+    float: left;
+}
+.header .hotwords ul li a {
+    float: left;
+    display: block;
+    height: 20px;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: 12px;
+}
+.header .shopcar {
+    position: absolute;
+    top: 27px;
+    left: 996px;
+    width: 117px;
+    height: 12px;
+    line-height: 12px;
+    padding: 11px;
+    background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+}
+.nav {
+    position: relative;
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+
+}
+.nav .dropdown {
+    width: 209px;
+    height: 45px;
+}
+.dropdown .dt {
+    width: 100%;
+    height: 100%;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #f1dfdf;
+    line-height: 45px;
+    text-align: center;
+}
+.dropdown .dd {
+    margin-top: 2px;
+    height: 465px;
+    background-color: #c81623;
+}
+.dropdown .menu_item{
+    margin-left: 1px;
+    height: 31px;
+    font-size: 14px;
+    padding-left: 12px;
+    padding-right: 11px;
+    line-height: 31px;
+}
+ .menu_item:hover {
+    background-color: #fff;
+}
+ .menu_item a {
+    color: #fff;
+}
+.menu_item:hover a {
+    color: #c81623;
+}
+.menu_item i{
+    float: right;
+    font-family: 'icomoon';
+    font-size: 18px;
+    color: #fff;
+}
+.navitems {
+    float: left;
+    height: 45px;
+    width: 730px;
+    background-color: skyblue;
+}
+/* .navitems ul li a {
+    display: block;
+    float: right;
+    height: 45px;
+    font-size: 16px;
+    line-height: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+}  */
+
+/* head结束 */

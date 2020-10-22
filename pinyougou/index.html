@@ -26,38 +26,19 @@
             font-style: normal;
             font-display: block;
             }
-
-            [class^="icon-"], [class*=" icon-"] {
-            /* use !important to prevent issues with browser extensions that change fonts */
-            font-family: 'icomoon' !important;
-            font-style: normal;
-            font-weight: normal;
-            font-variant: normal;
-            text-transform: none;
-            line-height: 1;
-
-            /* Better Font Rendering =========== */
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            }
-
-            .icon-wrench:before {
-            content: "\e991"; 
-            }
-            .icon-spoon-knife:before {
-            content: "\e9a3";
-            }
-            .icon-leaf:before {
-            content: "\e9a4";
-            }
-            .icon-shocked:before {
-            content: "\e9f1";
-        }
         span,
-        div{
+        div {
             font-family: 'icomoon';
             font-size: 12px;
             color: #767676;
+        }
+        .car {
+            font-family: 'icomoon';
+            font-size: 12px;
+            color: #da5555;
+            display: inline-block;
+            margin-left: 17px;
+            margin-right: 8px;
         }
     </style>
 </head>
@@ -96,6 +77,58 @@
         <div class="search">
             <input type="text">
             <button>搜索</button>
+        </div>
+        <div class="hotwords">
+            <ul>
+                <li><a href="#">优惠购首发</a></li>
+                <li><a href="#">亿元优惠</a></li>
+                <li><a href="#">9.9团购</a></li>
+                <li><a href="#">每满99减30</a></li>
+                <li><a href="#">办公用品</a></li>
+                <li><a href="#">电脑</a></li>
+                <li><a href="#">通信</a></li>
+            </ul>
+        </div>
+        <div class="shopcar">
+            <div class="car"></div>我的购物车
+        </div>
+    </div>
+    <div class="nav">
+        <div class="w">
+            <div class="dropdown fl">
+                <div class="dt"> 全部商品分类</div>
+                <div class="dd">
+                    <ul>
+                        <li class="menu_item"><a href="#">家用电器</a>  <i></i></li>
+                        <li class="menu_item"><a href="#">手机、数码、通信</a>  <i></i></li>
+                        <li class="menu_item"><a href="#">电脑、办公</a>  <i></i></li>
+                        <li class="menu_item"><a href="#">家具、家具、家装、厨具</a>  <i></i></li>
+                        <li class="menu_item"><a href="#">男装、女装、童装、内衣</a>  <i></i></li>
+                        <li class="menu_item"><a href="#">个护外妆、清洁</a>  <i></i></li>
+                        <li class="menu_item"><a href="#">鞋靴、箱包、珠宝</a>  <i></i></li>
+                        <li class="menu_item"><a href="#">运动户外、钟表</a>  <i></i></li>
+                        <li class="menu_item"><a href="#">汽车用品</a>  <i></i></li>
+                        <li class="menu_item"><a href="#">母婴食品</a>  <i></i></li>
+                        <li class="menu_item"><a href="#">医药保健</a>  <i></i></li>
+                        <li class="menu_item"><a href="#">图书、音像制品</a>  <i></i></li>
+                        <li class="menu_item"><a href="#">彩票、足彩</a>  <i></i></li>
+                        <li class="menu_item"><a href="#">理财、众筹</a>  <i></i></li>
+                        <li class="menu_item"><a href="#">书法字画</a>  <i></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navitems fl">
+                <ul>
+                    <!-- <li><a href="#">服装城</a></li>
+                    <li><a href="#">美妆馆</a></li>
+                    <li><a href="#">零食城</a></li>
+                    <li><a href="#">全球购</a></li>
+                    <li><a href="#">闪购</a></li>
+                    <li><a href="#">团购</a></li>
+                    <li><a href="#">拍卖专区</a></li>
+                    <li><a href="#">趣购</a></li> -->
+                </ul>
+            </div>
         </div>
     </div>
     <!-- header部分结束 -->
