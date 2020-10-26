@@ -1,0 +1,41 @@
+/* 首页的样式 */
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+.focus {
+    width: 720px;
+    height: 455px;
+}
+.newsflash {
+    width: 250px;
+    height: 455px;
+    border: 1px solid #e4e4e4;
+}
+.newsflash .news {
+    height: 165px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.newsflash .news-head {
+    padding: 10px;
+    font-size: 14px;
+    border-bottom: 1px  dotted #e4e4e4;
+}
+.newsflash .news-head a {
+    float: right;
+}
+.newsflash .news-body {
+    padding: 10px;
+    font-size: 14px;
+}
+.newsflash .lifeservice li {
+    float: left;
+    width: 60px;
+    height: 71px;
+    border: 1px solid #e4e4e4;
+    overflow: hidden;
+}
+
+
