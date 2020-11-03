@@ -6,17 +6,52 @@
     margin-top: 10px;
 }
 .focus {
+    position: relative;
     width: 720px;
     height: 455px;
+}
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+}
+.arrow-r {
+    right: 0;
+}
+.circles {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circles li {
+    float: left;
+    margin-left: 5px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+    cursor: pointer;
+}
+.current {
+    background-color: #fff;
 }
 .newsflash {
     width: 250px;
     height: 455px;
-    border: 1px solid #e4e4e4;
+    /* border: 1px solid #e4e4e4; */
 }
 .newsflash .news {
     height: 165px;
-    border-bottom: 1px solid #e4e4e4;
+    border: 1px solid #e4e4e4;
 }
 .newsflash .news-head {
     padding: 10px;
@@ -30,12 +65,193 @@
     padding: 10px;
     font-size: 14px;
 }
-.newsflash .lifeservice li {
-    float: left;
-    width: 60px;
-    height: 71px;
-    border: 1px solid #e4e4e4;
-    overflow: hidden;
+.newsflash .news-body a {
+    cursor:  pointer;
 }
-
-
+.lifeservice {
+    overflow: hidden;
+    height: 208px;
+    border: 1px solid #e4e4e4;
+    border-top: none;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+}
+.lifeservice li p {
+    text-align: center;
+    font-size: 12px;
+}
+.lifeservice  li a {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+}
+.hot {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.jpg);
+}
+.lifeservice-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 10px auto;
+    background: url(../img/icons.png)no-repeat;
+}
+.lifesevice-icon-hua {
+    background-position: -18px -15px;
+}
+.lifesevice-icon-ji {
+    width: 26px;
+    background-position: -78px -18px;
+}
+.lifesevice-icon-dian {
+    background-position: -141px -18px;
+}
+.lifesevice-icon-you {
+    background-position: -206px -18px;
+}
+.lifesevice-icon-cai {
+    background-position: -18px -88px;
+}
+.lifesevice-icon-jia {
+    background-position: -78px -88px;
+}
+.lifesevice-icon-jiu {
+    background-position: -140px -88px;
+}
+.lifesevice-icon-huo {
+    background-position: -206px -88px;
+}
+.lifesevice-icon-zhong {
+    background-position: -18px -159px;
+}
+.lifesevice-icon-li {
+    background-position: -78px -159px;
+}
+.lifesevice-icon-pin {
+    background-position: -141px -159px;
+}
+.lifesevice-icon-bai {
+    background-position: -206px -159px;
+}
+.man {
+    margin-top: 4px;
+    width: 250;
+    height: 76px;
+    background: url(../img/man.png) no-repeat;
+}
+/* 推荐服务模块开始 */
+.recommend {
+    margin-top: 12px;
+    height: 163px;
+    background-color: black;
+}
+.recommend-hd {
+    height: 163px;
+    width: 206px;
+    background-color: #5c5251;
+    text-align: center;
+}
+.recommend-hd img {
+    margin: 30px 0 10px 0;
+}
+.recommend-hd h3 {
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;
+    font-weight: normal;
+}
+.recommend-bd {
+    width: 994px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+.recommend-bd li {
+    float: left;
+    width: 247px;
+    height: 144px;
+    margin-top: 10px;
+    background-color: red;
+    border-right: 1px solid #ddd;
+}
+.recommend-bd .reco-1 {
+    background: url(../img/reco-1.jpg) no-repeat;
+}
+.recommend-bd .reco-2 {
+    background: url(../img/reco-2.jpg) no-repeat;
+}
+.recommend-bd .reco-3 {
+    background: url(../img/reco-3.jpg) no-repeat;
+}
+.recommend-bd .reco-4 {
+    border: none;
+    background: url(../img/reco-4.jpg) no-repeat;
+}
+/* 推荐服务模块结束 */
+/* floor开始 */
+    .jiadian {
+        margin-top: 25px;
+    }
+    .box-hd {
+        height: 30px;
+        border-bottom: 2px solid #c81623;
+    }
+    .box-hd h3 {
+        float: left;
+        font-size: 18px;
+        color: #c81623;
+    }
+    .tab-list li {
+        float: left;
+        line-height: 30px;
+    }
+    .tab-list a {
+        margin: 0 15px;
+        font-size: 12px;
+    }
+    .style-red {
+        color: #c81623;
+    }
+    .box-bd {
+        height: 361px;
+        background-color: royalblue;
+    }
+    .tab-con-list>li{
+        float: left;
+        margin-left: 10px;
+        height: 32px;
+        width: 86px;
+        line-height: 32px;
+        text-align: center;
+        color: #666666;
+        border-bottom: 1px solid #ededed;
+    }
+    .w209 {
+        width: 209px;
+    }
+    .w329 {
+        width: 329px;
+    }
+    .w219 {
+        width: 219px;
+    }
+    .tab-con>li {
+        float: left;
+        height: 361px;
+    }
+    .tab-con-item {
+        border-bottom: 1px solid #ccc;
+    }
+/* floor结束 */
